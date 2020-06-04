@@ -8,7 +8,7 @@ import 'rxjs/add/operator/map';
 })
 export class ApiServiceService {
 
-  caminho = 'http://locauhost/crudangular/';
+  caminho = 'http://localhost/crudangular/';
 
   constructor(private http:HttpClient) { }
 
