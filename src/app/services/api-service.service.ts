@@ -9,6 +9,7 @@ import 'rxjs/add/operator/map';
 export class ApiServiceService {
 
   caminho = 'http://localhost/crudangular/';
+  //caminho = 'http://angularcrud-com-br.umbler.net/';
 
   constructor(private http:HttpClient) { }
 
